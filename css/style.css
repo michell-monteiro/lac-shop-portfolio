@@ -84,7 +84,7 @@ a {
 
 /*Introdução*/
 .img-bg {
-    height: 70vh;
+    height: 85vh;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -100,6 +100,31 @@ a {
     background: black url('../img/mug-main-foto.jpg') bottom center no-repeat fixed;
 }
 
+/* Sobre */
+.sobre {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 1px 4px 0px black;
+}
+
+.sobre-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
 
 @media (max-width: 600px) {
     body {
