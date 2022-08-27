@@ -69,7 +69,7 @@ a {
 }
 
 .mobile-menu {
-    /* display: none; */
+    display: none;
     cursor: pointer;
     padding-left: 200px;
 }
@@ -80,4 +80,78 @@ a {
     background: #20B6F5;
     margin: 8px;
     transition: 0.3s;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu-nav a {
+        color: #A54206;
+        border-radius: 10px;
+    }
+
+    .menu-nav a:hover {
+        transition-duration: 0.5s;
+        color: #ff9900;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 26vh;
+        right: 0;
+        width: 75vw;
+        height: 70vh;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        border-bottom: 1px solid orange;
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    .nav-list li{
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+
+    /* Anima os links */
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
 }
