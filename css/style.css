@@ -82,6 +82,24 @@ a {
     transition: 0.3s;
 }
 
+/*Introdução*/
+.img-bg {
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.img-bg > p {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+    font-size: 1.8em;
+    padding-bottom: 20px;
+}
+#mug-main {
+    background: black url('../img/mug-main-foto.jpg') bottom center no-repeat fixed;
+}
+
 
 @media (max-width: 600px) {
     body {
