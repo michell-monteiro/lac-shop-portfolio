@@ -71,7 +71,7 @@ a {
 .mobile-menu {
     display: none;
     cursor: pointer;
-    padding-left: 200px;
+    margin-left: 200px;
 }
 
 .mobile-menu div{
@@ -83,23 +83,19 @@ a {
 }
 
 
-
-
-
-
 @media (max-width: 600px) {
     body {
         overflow-x: hidden;
     }
 
     .menu-nav a {
-        color: #A54206;
+        color: #20B6F5;
         border-radius: 10px;
     }
 
     .menu-nav a:hover {
         transition-duration: 0.5s;
-        color: #ff9900;
+        color: #10658a;
     }
 
     .nav-list {
@@ -108,7 +104,7 @@ a {
         right: 0;
         width: 75vw;
         height: 70vh;
-        background-color: white;
+        background-color: #FAFAFA;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
