@@ -158,6 +158,22 @@ a {
     padding: 60px 20px;
 }
 
+.mug {
+    border-top: 8px solid #87A3B8;
+}
+
+.garrafa {
+    border-top: 8px solid #CF015C;
+}
+
+.taca {
+    border-top: 8px solid #0170B2;
+}
+
+.mimo {
+    border-top: 8px solid #B94240;
+}
+
 @media (max-width: 600px) {
     body {
         overflow-x: hidden;
