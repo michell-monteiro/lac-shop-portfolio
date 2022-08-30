@@ -18,6 +18,15 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .logo {
     height: 100px;
     width: 100px;
