@@ -126,6 +126,37 @@ a {
     margin-bottom: 1em;
 }
 
+/*Produtos*/
+.produtos {
+    max-width: 960px;
+    margin: 60px auto;
+    border-top: 3px solid #20B6F5;
+}
+
+.produtos h1 {
+    font-size: 3em;
+    margin: 0px 10px 60px 10px;
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.produtos-item {
+    /* Uma forma que substitui declarar um flex-basis de 175px é definir um min-width de 175px */
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.produtos-item h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    background: #f7f7f7;
+    padding: 60px 20px;
+}
+
 @media (max-width: 600px) {
     body {
         overflow-x: hidden;
