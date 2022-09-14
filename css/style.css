@@ -33,7 +33,7 @@ img {
 }
 
 .menu-bg {
-    background-color: #FAFAFA;
+    background-color:  #39A8DF;  /*#FAFAFA*/
 }
 
 .menu {
@@ -47,9 +47,12 @@ img {
 }
 
 .menu a {
-    color: #20B6F5;
+    color: white;
 }
 
+.menu-logo {
+    border-radius: 50px;
+}
 .menu-logo a {
     font-size: 2.25em;
     font-weight: bold;
@@ -65,16 +68,18 @@ img {
     font-size: 1.25em;
     display: block;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .menu-nav a:hover {
     transition-duration: 0.5s;
     color: #10658a;
+    background-color: white;
 }
 
 /* Slider */
 .slider-bg {
-    background-color: #0170B2;
+    background-color: white;
 }
 .slider {
     margin: 0 auto;
@@ -265,6 +270,7 @@ img {
     /* Uma forma que substitui declarar um flex-basis de 175px é definir um min-width de 175px */
     flex: 1 1 175px;
     margin: 10px;
+    max-width: 590px;
 }
 
 .produtos-item h2 {
