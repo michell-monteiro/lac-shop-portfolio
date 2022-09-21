@@ -101,7 +101,7 @@ img {
     /* position: relative; */
 }
 .slide img {
-    width: 400px;
+    width: 100vw;
 }
 
 .manual-navigation {
@@ -198,7 +198,7 @@ img {
 .mobile-menu div{
     width: 32px;
     height: 2px;
-    background: #20B6F5;
+    background: white;
     margin: 8px;
     transition: 0.3s;
 }
@@ -382,7 +382,7 @@ img {
     }
 
     .menu-nav a {
-        color: #20B6F5;
+        color: white;
         border-radius: 10px;
     }
 
@@ -397,7 +397,7 @@ img {
         right: 0;
         width: 75vw;
         height: 70vh;
-        background-color: #FAFAFA;
+        background-color: #39A8DF;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
