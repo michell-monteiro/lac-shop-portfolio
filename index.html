@@ -11,10 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8e1a8a979c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header class="menu-bg">
+    <header class="menu-bg" id="fix">
         <div class="menu">
             <div class="menu-logo">
                 <a href="#"><img src="img/Lacriart-logo.png" alt="" class="logo"></a>
@@ -29,12 +30,11 @@
 
             <nav class="menu-nav">
                 <ul class="nav-list">
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Faça seu pedido</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=5519997294203&text&type=phone_number&app_absent=0" class="button-pedido" target="_blank">Faça seu pedido<i class="fa-solid fa-cart-shopping"></i></a></li>
                     <li>
                       <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
-                      <i class="fa fa-bars"></i>
                     </li>
                 </ul>
             </nav>
