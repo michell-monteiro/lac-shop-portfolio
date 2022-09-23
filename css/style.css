@@ -273,17 +273,17 @@ a.button-pedido {
     padding: 60px 0px;
     display: flex;
     flex-wrap: wrap;
-    color: #fff;
+    color: black;
     background-color: #39A8DF;
     border-radius: 10px;
 }
-
 .mug-info {
     flex: 2 1 300px;
     margin: 0 10px;
-    /* background-color: #fff; */
+    background-color: #b9e3f8;
+    border-radius: 10px;
+    text-align: center;
 }
-
 .mug-info h1 {
     font-size: 3em;
     margin-bottom: .5em;
@@ -293,14 +293,39 @@ a.button-pedido {
     border-radius: 10px;
     color: #39A8DF;
     text-align: center;
+    margin-bottom: 100px;
 }
-
+.mug-info h2 {
+    background-color: #fff;
+    color: #39A8DF;
+}
 .mug-info p {
     font-size: 1.25em;
     line-height: 1.4;
     margin-bottom: 1em;
-    color: #fff;
+    color: black;
+    padding: 20px;
 }
+.mug-info a {
+    font-size: 3em;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #39A8DF;
+    /* padding: 20px; */
+}
+.mug-info span {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0 5px 0px;
+    background-color: #fff;
+    color: #39A8DF;
+    border-radius: 20px;
+}
+
 
 /*Produtos*/
 .produtos {
