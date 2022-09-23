@@ -274,14 +274,14 @@ a.button-pedido {
     display: flex;
     flex-wrap: wrap;
     color: black;
-    background-color: #8d4925
+    background-color: #B0762E
     ;
     border-radius: 10px;
 }
 .mug-info {
     flex: 2 1 300px;
     margin: 0 10px;
-    background-color: #ffb48a;
+    background-color: #FCC074;
     border-radius: 10px;
     text-align: center;
 }
