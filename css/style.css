@@ -273,6 +273,8 @@ a.button-pedido {
     padding: 60px 0px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     color: black;
     background-color: #B0762E
     ;
