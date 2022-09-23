@@ -400,10 +400,10 @@ a.button-pedido {
         overflow-x: hidden;
     }
 
-    .menu-nav a {
+    /* .menu-nav a {
         color: white;
         border-radius: 10px;
-    }
+    } */
 
     .menu-nav a:hover {
         transition-duration: 0.5s;
