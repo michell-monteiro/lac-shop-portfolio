@@ -274,13 +274,14 @@ a.button-pedido {
     display: flex;
     flex-wrap: wrap;
     color: black;
-    background-color: #39A8DF;
+    background-color: #8d4925
+    ;
     border-radius: 10px;
 }
 .mug-info {
     flex: 2 1 300px;
     margin: 0 10px;
-    background-color: #b9e3f8;
+    background-color: #ffb48a;
     border-radius: 10px;
     text-align: center;
 }
@@ -291,26 +292,25 @@ a.button-pedido {
     transition-duration: 2s;
     background-color: #fff;
     border-radius: 10px;
-    color: #39A8DF;
+    color: #2a0000;
     text-align: center;
     margin-bottom: 100px;
 }
 .mug-info h2 {
     background-color: #fff;
-    color: #39A8DF;
+    color: #2a0000;
 }
 .mug-info p {
     font-size: 1.25em;
     line-height: 1.4;
     margin-bottom: 1em;
     color: black;
-    padding: 20px;
 }
 .mug-info a {
     font-size: 3em;
     background-color: #fff;
     border-radius: 10px;
-    color: #39A8DF;
+    color: #2a0000;
     /* padding: 20px; */
 }
 .mug-info span {
@@ -322,7 +322,7 @@ a.button-pedido {
     font-weight: bold;
     padding: 10px 0 5px 0px;
     background-color: #fff;
-    color: #39A8DF;
+    color: #2a0000;
     border-radius: 20px;
 }
 
