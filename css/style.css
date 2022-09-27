@@ -99,6 +99,7 @@ a.button-pedido {
 }
 .slider {
     margin: 0 auto;
+    margin-top: 8.62em;
     width: 100%;
     height: 80vh;
     overflow: hidden;
