@@ -489,7 +489,23 @@ a.button-pedido {
         height: 84.2%;
         display: flex;
     }
-    
+    .slider {
+        margin: 0 auto;
+        margin-top: 8.62em;
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .navigation-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 17.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    /* Para os Slides*/
+
     .nav-list {
         position: absolute;
         top: 18vh;
