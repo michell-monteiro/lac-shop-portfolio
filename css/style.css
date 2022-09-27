@@ -107,7 +107,7 @@ a.button-pedido {
 }
 .slides {
     width: 400%;
-    height: 84.2%;
+    height: 90%; /*84.2% mobile*/
     display: flex;
     /* justify-content: center;
     align-items: center; */
@@ -468,7 +468,7 @@ a.button-pedido {
     padding: 15px 0;
     text-align: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 665px) {
     body {
         overflow-x: hidden;
     }
@@ -483,6 +483,13 @@ a.button-pedido {
         color: #39A8DF;
     }
 
+    /* Para os Slides */
+    .slides {
+        width: 400%;
+        height: 84.2%;
+        display: flex;
+    }
+    
     .nav-list {
         position: absolute;
         top: 18vh;
