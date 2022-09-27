@@ -548,6 +548,16 @@ a.button-pedido {
     }
 }
 
+@media(width: 780px) {
+    .navigation-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 19.5rem;
+        display: flex;
+        justify-content: center;
+    }    
+}
+
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
 }
