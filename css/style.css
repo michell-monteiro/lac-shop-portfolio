@@ -118,7 +118,7 @@ a.button-pedido {
 .slide {
     width: 25%;
     transition: 2s;
-    /* position: relative; */
+    position: relative;
 }
 .slide img {
     width: 100vw;
@@ -468,7 +468,12 @@ a.button-pedido {
     padding: 15px 0;
     text-align: center;
 }
-@media (max-width: 767px) {
+
+
+
+
+/* Configuração padrão para Celulares*/
+@media (max-width: 667px){
     body {
         overflow-x: hidden;
     }
@@ -500,7 +505,7 @@ a.button-pedido {
     .navigation-auto {
         position: absolute;
         width: 100%;
-        margin-top: 16.45em;
+        margin-top: 16.5em;
         display: flex;
         justify-content: center;
     }
@@ -548,7 +553,16 @@ a.button-pedido {
     }
 }
 
-@media(min-width: 666px) and (max-width: 780px)
+/* Celulares maiores  */
+@media(min-width: 668px) and (max-width: 768px){
+    .navigation-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 19.2em;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
