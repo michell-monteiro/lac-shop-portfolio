@@ -468,7 +468,7 @@ a.button-pedido {
     padding: 15px 0;
     text-align: center;
 }
-@media (max-width: 665px) {
+@media (max-width: 767px) {
     body {
         overflow-x: hidden;
     }
@@ -500,7 +500,7 @@ a.button-pedido {
     .navigation-auto {
         position: absolute;
         width: 100%;
-        margin-top: 17.5rem;
+        margin-top: 16.45em;
         display: flex;
         justify-content: center;
     }
@@ -548,15 +548,7 @@ a.button-pedido {
     }
 }
 
-@media(width: 780px) {
-    .navigation-auto {
-        position: absolute;
-        width: 100%;
-        margin-top: 19.5rem;
-        display: flex;
-        justify-content: center;
-    }    
-}
+@media(min-width: 666px) and (max-width: 780px)
 
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
